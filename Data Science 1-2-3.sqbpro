@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><sqlb_project><db path="/Users/tishii2/Downloads/Data Science 1-2-3.db" foreign_keys="1"/><window><current_tab id="3"/></window><tab_structure><column_width id="0" width="300"/><column_width id="1" width="0"/><column_width id="2" width="100"/><column_width id="3" width="503"/><expanded_item id="0" parent="1"/><expanded_item id="1" parent="1"/><expanded_item id="2" parent="1"/><expanded_item id="3" parent="1"/></tab_structure><tab_browse><current_table name=""/><default_encoding codec=""/><browsetable_info data="AAAAAA=="/></tab_browse><tab_sql><sql name="SQL 1">SELECT 
+		ZIP,
+		MaxTemperatureF MaxTemp
+FROM 
+		weather
+LIMIT 1</sql><sql name="SQL 2">SELECT 
+		start_station,
+		COUNT(*)
+FROM 
+		trips
+GROUP by start_station
+</sql><sql name="SQL 3">SELECT 
+		MIN(duration),
+		*
+FROM 
+		trips </sql><sql name="Data Science 1-2-3.sql">SELECT 
+		end_station,
+		AVG(duration) Average_Duration
+FROM 
+		trips
+GROUP by end_station</sql><current_tab id="3"/></tab_sql></sqlb_project>
